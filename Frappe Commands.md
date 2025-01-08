@@ -33,4 +33,3 @@
 
 # Backup bench
     bench backup-all-sites
-    
