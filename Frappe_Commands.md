@@ -177,32 +177,32 @@ You might include this in your documentation as follows:
     # It reads the site's configuration file and returns the value for the given key.
     bench --site my_site get-config developer_mode
 
-    ## Doctype Commands
+## Doctype Commands
 
-    ### Create a new Doctype
-        bench --site [site-name] new-doctype [doctype-name]
+### Create a new Doctype
+    bench --site [site-name] new-doctype [doctype-name]
 
-        # This command creates a new Doctype with the specified name on the given site.
-        # It sets up the necessary files and configurations for the Doctype.
-        bench --site my_site new-doctype my_doctype
+    # This command creates a new Doctype with the specified name on the given site.
+    # It sets up the necessary files and configurations for the Doctype.
+    bench --site my_site new-doctype my_doctype
 
-    ### Export Doctype
-        bench --site [site-name] export-doctype [doctype-name]
+### Export Doctype
+    bench --site [site-name] export-doctype [doctype-name]
 
-        # This command exports the specified Doctype's definition to a JSON file.
-        # It is useful for version control and sharing Doctype configurations.
-        bench --site my_site export-doctype my_doctype
+    # This command exports the specified Doctype's definition to a JSON file.
+    # It is useful for version control and sharing Doctype configurations.
+    bench --site my_site export-doctype my_doctype
 
-    ### Import Doctype
-        bench --site [site-name] import-doctype [path-to-json-file]
+### Import Doctype
+    bench --site [site-name] import-doctype [path-to-json-file]
 
-        # This command imports a Doctype definition from a JSON file.
-        # It updates the Doctype configuration on the site with the imported definition.
-        bench --site my_site import-doctype /path/to/my_doctype.json
+    # This command imports a Doctype definition from a JSON file.
+    # It updates the Doctype configuration on the site with the imported definition.
+    bench --site my_site import-doctype /path/to/my_doctype.json
 
-    ### Delete Doctype
-        bench --site [site-name] delete-doctype [doctype-name]
+### Delete Doctype
+    bench --site [site-name] delete-doctype [doctype-name]
 
-        # This command deletes the specified Doctype from the given site.
-        # It removes the Doctype's database table and files.
-        bench --site my_site delete-doctype my_doctype
+    # This command deletes the specified Doctype from the given site.
+    # It removes the Doctype's database table and files.
+    bench --site my_site delete-doctype my_doctype
