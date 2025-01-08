@@ -30,3 +30,7 @@
 
 # Restart bench
     bench restart
+
+# Backup bench
+    bench backup-all-sites
+    
