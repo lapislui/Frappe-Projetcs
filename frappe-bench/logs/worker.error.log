@@ -122,3 +122,7 @@
   from cryptography.hazmat.primitives.ciphers.algorithms import AES, ARC4
 /home/hp/Desktop/Work/Frappe-Projetcs/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:72: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
   warnings.warn(
+/home/hp/Desktop/Work/Frappe-Projetcs/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:58: DeprecationWarning: The `push_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
+/home/hp/Desktop/Work/Frappe-Projetcs/frappe-bench/env/lib/python3.10/site-packages/rq/connections.py:72: DeprecationWarning: The `pop_connection` function is deprecated. Pass the `connection` explicitly instead.
+  warnings.warn(
