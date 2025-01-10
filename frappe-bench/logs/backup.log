@@ -4,3 +4,9 @@ Backup Summary for kevalsite at 2025-01-09 12:00:05.744768
 Config  : ./kevalsite/private/backups/20250109_120002-kevalsite-site_config_backup.json 116.0B
 Database: ./kevalsite/private/backups/20250109_120002-kevalsite-database.sql.gz         808.7KiB
 Backup for Site kevalsite has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_4a59abda0c4d2d26 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _4a59abda0c4d2d26 | /usr/bin/gzip >> ./kevalsite/private/backups/20250110_120003-kevalsite-database.sql.gz
+
+Backup Summary for kevalsite at 2025-01-10 12:00:06.105018
+Config  : ./kevalsite/private/backups/20250110_120003-kevalsite-site_config_backup.json 116.0B
+Database: ./kevalsite/private/backups/20250110_120003-kevalsite-database.sql.gz         809.0KiB
+Backup for Site kevalsite has been successfully completed

@@ -80,3 +80,5 @@
 2025-01-09 12:23:34,713 INFO /usr/local/bin/bench serve --port 8000
 2025-01-09 12:23:34,761 INFO /usr/local/bin/bench watch
 2025-01-10 10:51:33,188 INFO /usr/local/bin/bench version
+2025-01-10 12:00:01,749 INFO /usr/local/bin/bench --verbose --site all backup
+2025-01-10 14:52:45,208 INFO /usr/local/bin/bench version
